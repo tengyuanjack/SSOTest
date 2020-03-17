@@ -19,7 +19,7 @@
 
 端口： sso-login使用```8080```端口，sub1和sub2使用```8081```端口
 
-redis: 使用```db2```，用户表为```user:db```, map类型，预存一条数据```{tengyuanjack:123456}```
+redis: 使用```db2```，用户表为```user:db```, hash类型，预存一条数据```{tengyuanjack:123456}```
 
 模拟流程：
 
