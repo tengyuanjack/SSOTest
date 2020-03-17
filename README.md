@@ -19,6 +19,8 @@
 
 端口： sso-login使用```8080```端口，sub1和sub2使用```8081```端口
 
+redis: 使用```db2```，用户表为```user:db```, map类型，预存一条数据```{tengyuanjack:123456}```
+
 模拟流程：
 
 1. 用户查看sub1系统中的购物车商品，地址栏输入```http://www.sub1.com:8081/index```;
