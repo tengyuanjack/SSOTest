@@ -1,0 +1,15 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SSO Login</title>
+</head>
+<body>
+<form action="#" th:action="@{/login}" th:object="${user}" method="post">
+    <h2>SSO登录</h2>
+    <input type="text" placeholder="账号" th:field="*{username}">
+    <input type="password" placeholder="密码" th:field="*{password}">
+    <input type="hidden" th:value="${refer}" name="refer">
+    <button type="submit">登录</button>
+</form>
+</body>
+</html>
